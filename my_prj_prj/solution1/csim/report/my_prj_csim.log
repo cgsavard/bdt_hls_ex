@@ -1,0 +1,11 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../my_prj_test.cpp in debug mode
+   Compiling ../../../../firmware/my_prj.cpp in debug mode
+   Generating csim.exe
+Processing input 0
+Quantized predictions
+0.078125 0 
+INFO: Saved inference results to file: tb_data/csim_results.log
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

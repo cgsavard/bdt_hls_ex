@@ -1,0 +1,101 @@
+INFO-FLOW: Workspace /nfs/data41/csavard/conifer/GBDT_12_6/my_prj_prj/solution1 opened at Wed Sep 02 13:10:43 MDT 2020
+Execute     set_part xcvu7p-flvb2104-1-e 
+Execute       ap_part_info -name xcvu7p-flvb2104-1-e -data single -quiet 
+Command       ap_part_info done; 1.94 sec.
+Execute       ap_part_info -name xcvu7p-flvb2104-1-e -data info 
+Execute       add_library xilinx/virtexuplus/virtexuplus:xcvu7p:-flvb2104:-1-e 
+Execute         get_default_platform 
+Execute         license_isbetapart xcvu7p 
+Command         license_isbetapart done; error code: 1; 
+Execute         open_platform DefaultPlatform 
+Execute         import_lib /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/virtexuplus/virtexuplus 
+Execute           source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.lib 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/plb46.lib 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/fsl.lib 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/axi4.lib 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.lib 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.lib 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.lib 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/dds_compiler.lib 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfft.lib 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfir.lib 
+Execute           source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute           source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/virtexuplus/dsp48e2.hlp 
+Execute           source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute         source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/virtexuplus/virtexuplus.gen 
+Execute           source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/plb46.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/fsl.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/axi4.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.gen 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/util.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfft.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfir.gen 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.gen 
+Execute         ap_part_info -data single -name xcvu7p-flvb2104-1-e 
+Execute         ap_part_info -name xcvu7p-flvb2104-1-e -data resources 
+Execute         ap_part_info -name xcvu7p-flvb2104-1-e -data info 
+Execute         ap_part_info -name xcvu7p-flvb2104-1-e -data info 
+Execute         config_chip_info -quiet -resource {SLICE 98520} {LUT 788160} {FF 1576320} {DSP48E 4560} {BRAM 2880} {URAM 640} {SLR 2} 
+Execute         ap_part_info -name xcvu7p-flvb2104-1-e -data info 
+Execute         config_chip_info -quiet -speed slow 
+Command       add_library done; 0.52 sec.
+Execute       add_library xilinx/virtexuplus/virtexuplus_fpv7 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         import_lib /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/virtexuplus/virtexuplus_fpv7 
+Execute           source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.lib 
+Execute           source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.hlp 
+Execute             source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute                 source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute                 source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute               source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute         source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/virtexuplus/virtexuplus_fpv7.gen 
+Execute           source /nfs/data41/software/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.gen 
+INFO: [HLS 200-10] Setting target device to 'xcvu7p-flvb2104-1-e'
+Execute       ap_part_info -name xcvu7p-flvb2104-1-e -data info 
+Execute       get_default_platform 
+Command     set_part done; 2.55 sec.
+Execute     create_clock -period 4.17 -name default 
+Execute       config_clock -quiet -name default -period 4.17 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 4.17ns.
+Execute     csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+Execute       is_encrypted /nfs/data41/csavard/conifer/GBDT_12_6/my_prj_test.cpp 
+Execute       is_xip /nfs/data41/csavard/conifer/GBDT_12_6/my_prj_test.cpp 
+Execute       is_encrypted /nfs/data41/csavard/conifer/GBDT_12_6/firmware/my_prj.cpp 
+Execute       is_xip /nfs/data41/csavard/conifer/GBDT_12_6/firmware/my_prj.cpp 
+Execute       is_encrypted /nfs/data41/csavard/conifer/GBDT_12_6/firmware/BDT.h 
+Execute       is_xip /nfs/data41/csavard/conifer/GBDT_12_6/firmware/BDT.h 
+Execute       ap_part_info -name xcvu7p-flvb2104-1-e -data info 
+Execute       source run_sim.tcl 
+Command       ap_source done; 1.46 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command     csim_design done; 5.75 sec.
+Execute     cosim_design -trace_level all 
+ERROR: [COSIM 212-40] C/RTL co-simulation cannot be started, possible causes: 1) Synthesis was not successful; 2) The solution has been reset; 3) Simulation is not running in the solution directory.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+Command     cosim_design done; error code: 2; 
+Command   ap_source done; error code: 1; 9.42 sec.
+Execute   cleanup_all 
